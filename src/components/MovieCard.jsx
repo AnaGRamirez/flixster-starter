@@ -8,16 +8,14 @@ function MovieCard({props}){
 
     return (
           <div className="movie-card">
-
                 {/* poster pic */}
                 <img className="poster"
-                    src={props.poster_path}
+                    src= {"https://image.tmdb.org/t/p/w500" + `${props.poster_path}`}
                     alt= {props.title}
-                    onClick = {()=> {                                               
+                    onClick = {()=> {                                                 
                     openModal(props);
                 }}
                 />
-                
                 {/* title */}
                 <h3 className="movie-title"> {props.title} </h3>
 

@@ -6,19 +6,25 @@ import data from '../data/data';
 import { use } from 'react';
 
 
-    
-
 const MovieGrid = ({ items }) => {
 
-    const {movies} = useContext(MovieContext);
-    const renderedItems = movies.map(movie => (
-    <MovieCard key={movie.id} props={movie} />
+    const {movies, loadMoreMovies} = useContext(MovieContext);
+    const renderCards = movies.map((movie, index )=> (
+    <MovieCard key={index} props={movie} />
   ));
 
-
   return (
-    <div className="movie-grid">
-      {renderedItems}
+    <div className="movie-grid-parent">
+    
+      <div className="movie-grid">
+        {renderCards}
+      </div>
+
+      <div className="load-more-wrapper">
+        <button className = "load-more-button" onClick={loadMoreMovies}>
+          Load More Movies
+        </button>
+      </div>
     </div>
   );
 };
