@@ -12,7 +12,7 @@ function initializeMovie(movie) {
 }
 
 // Provider Component
-function MovieProvider({ children }) {
+function MovieProvider({children}) {
   const [movies, setMovies] = useState([]);
   const [selectedMovie, setSelectedMovie] = useState(null);
   const [page, setPage] = useState(1);
@@ -31,9 +31,7 @@ function MovieProvider({ children }) {
   try {
     const response = await fetch(url, options);
     const result = await response.json();
-    console.log('ressulllt', result);
     const moviesWithFlags = result.results.map(initializeMovie);
-    console.log(moviesWithFlags);
     setMovies((prevMovies) => [...prevMovies, ...moviesWithFlags]);
 
   } catch (error) {
@@ -59,6 +57,7 @@ function MovieProvider({ children }) {
 
   // Toggle watched status
   function toggleWatched(id) {
+      console.log("what's going on?");
     setMovies((prev) =>
       prev.map((movie) =>
         movie.id === id
@@ -82,22 +81,41 @@ function MovieProvider({ children }) {
     setPage((prevPage) => prevPage + 1);
   }
 
- 
+  // Sort Movies (Navbar functionality)
+   //Sort movies
+  function sortMovies(by) {
+    const sorted = [...movies];
+    
+    if (by === 'title'){
+        sorted.sort((a,b) => a.title.localCompare(b.title));
+    }
+
+    else if (by === 'release-date'){  
+        sorted.sort((a,b) => new Date(b.release_date)- new Date(a.release_date));
+
+    }
+
+    else if (by === 'vote-average'){
+        sorted.sort((a,b)=> b.vote_average - a.vote_average);
+    }
+    
+  }
+
   return (
     <MovieContext.Provider
       value={{
-        movies,
+        movies: movies,
         toggleFavorite,
         toggleWatched,
         openModal,
         closeModal,
         selectedMovie,
         loadMoreMovies,
+        sortMovies,
       }}
     >
       {children}
     </MovieContext.Provider>
   );
 }
-
 export { MovieContext, MovieProvider};
