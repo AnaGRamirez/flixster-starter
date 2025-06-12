@@ -36,8 +36,20 @@ const MovieGrid = () => {
           </button>
         </div>
       )}
+      <Modal isOpen={selectedMovie} onClose={closeModal}>
+        {selectedMovie && (
+          <div className="movie-details">
+            <h2>{selectedMovie.title}</h2>
+            <p>Release Date: {selectedMovie.release_date}</p>
+            <p>Rating: {selectedMovie.vote_average}</p>
+            <p> Genres: {selectedMovie.genres}</p>
+            <p>{selectedMovie.overview}</p>
+          </div>
+        )}
+      </Modal>
     </div>
   );
 };
 
 export default MovieGrid;
+
