@@ -2,7 +2,6 @@
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     gap: 1.5rem;
-    padding: 2rem;
 }
 .load-more-button {
     width: 250px;
@@ -13,7 +12,6 @@
     border-radius: 8px;
     border: 2px solid black;
     cursor: pointer;
-    transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
 .load-more-button:hover {
@@ -21,6 +19,22 @@
     transform: scale(1.05);
 }
 
+/* fix responsiveness of the title of the grid after implementing other sidebar */
+.movie-grid-parent{
+    padding-top:60px;
+}
+
+.movie-grid-parent h2 {
+  color: white;
+  font-size: 1.5rem;
+  text-align: start;
+}
+
+.movie-grid p {
+  color: white;
+  font-size: 1.25rem;
+  text-align: center;
+}
 
 @media(max-width: 1200px){
     .movie-grid{

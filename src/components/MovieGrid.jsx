@@ -1,33 +1,43 @@
 import React, {useContext} from 'react';
 import { MovieContext } from '../context/MovieContext';
 import MovieCard from './MovieCard';
-import './MovieGrid.css'
-import data from '../data/data';
-import { use } from 'react';
+import Modal from './Modal';
+import './MovieGrid.css';
+
+const MovieGrid = () => {
+    // handle business logic here
+    const {movies, loadMoreMovies, searchQuery, closeModal, selectedMovie} = useContext(MovieContext);
+
+    const renderCards = () => {
+    if (movies.length === 0) {
+      return <p>No movies found.</p>;
+    }
+    return movies.map((movie, index) => <MovieCard key={index} props={movie} />);
+  };
 
 
-const MovieGrid = ({ items }) => {
-
-    const {movies, loadMoreMovies} = useContext(MovieContext);
-    const renderCards = movies.map((movie, index )=> (
-    <MovieCard key={index} props={movie} />
-  ));
 
   return (
     <div className="movie-grid-parent">
-    
-      <div className="movie-grid">
-        {renderCards}
-      </div>
+       <h2>
+        {searchQuery
+          ? `Search Results for "${searchQuery}"`
+          : 'Now Playing'}
+      </h2>
 
-      <div className="load-more-wrapper">
-        <button className = "load-more-button" onClick={loadMoreMovies}>
-          Load More Movies
-        </button>
+      <div className="movie-grid">
+        {renderCards()}
       </div>
+     
+       {!searchQuery && (
+        <div className="load-more-wrapper">
+          <button className="load-more-button" onClick={loadMoreMovies}>
+            Load More Movies
+          </button>
+        </div>
+      )}
     </div>
   );
 };
-
 
 export default MovieGrid;

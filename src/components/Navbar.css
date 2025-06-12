@@ -1,0 +1,36 @@
+.navbar{
+  position: fixed;       
+  top: 0;                
+  left: 0;
+  width: 100%;           
+  z-index: auto;        
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 15px 30px;
+  background: linear-gradient(135deg, #1c1c1c, #444444);
+  flex-wrap: wrap;
+}
+.website-title {
+  display: flex;
+  align-items: center;
+  font-size: 1.8em;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+  gap: 10px;
+}
+
+.website-title img {
+  height: 40px;
+  width: 40px;
+}
+
+.navbar-actions {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
