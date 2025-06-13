@@ -23,24 +23,19 @@ const MovieGrid = () => {
   const renderCards = () => {
     if (movies.length === 0) {
       return <p>No movies found.</p>;
-    }
-    else if (currentPath === "/favorites") {
+    } else if (currentPath === "/favorites") {
       return favorites.map((movie, index) => (
         <MovieCard key={index} props={movie} />
       ));
-    }
-    else if (currentPath === "/watch") {
+    } else if (currentPath === "/watch") {
       return watched.map((movie, index) => (
         <MovieCard key={index} props={movie} />
       ));
+    } else {
+      return movies.map((movie, index) => (
+        <MovieCard key={index} props={movie} />
+      ));
     }
-    else {
- return movies.map((movie, index) => (
-      <MovieCard key={index} props={movie} />
-    ));
-    }
-
-   
   };
 
   return (

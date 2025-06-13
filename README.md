@@ -38,12 +38,12 @@ Deployed Application (**required**): [Flixster Deployed Site](https://flixster-s
     - [x] Clicks the Submit/Search button
   - [x] Users can click the Clear button. When clicked:
     - [x] Most recent search results are cleared from the text input field and the grid view and all current movies are displayed in a grid view
-- [ ] **Design Features**
-  - [ ] Website implements all of the following accessibility features:
-    - [ ] Semantic HTML
-    - [ ] [Color contrast](https://webaim.org/resources/contrastchecker/)
-    - [ ] Alt text for images 
-  - [ ] Website implements responsive web design.
+- [x] **Design Features**
+  - [x] Website implements all of the following accessibility features:
+    - [x] Semantic HTML
+    - [x] [Color contrast](https://webaim.org/resources/contrastchecker/)
+    - [x] Alt text for images 
+  - [x] Website implements responsive web design.
     - [x] Uses CSS Flexbox or CSS Grid
     - [x] Movie tiles and images shrink/grow in response to window size
   - [x] Users can click on a movie tile to view more details about a movie in a pop-up modal.
@@ -54,7 +54,7 @@ Deployed Application (**required**): [Flixster Deployed Site](https://flixster-s
       - [x] Runtime in minutes
       - [x] Backdrop poster
       - [x] Release date
-      - [] Genres
+      - [x] Genres
       - [x] An overview
   - [x] Users can use a drop-down menu to sort movies.
     - [x] Drop-down allows movies to be sorted by:
@@ -67,14 +67,13 @@ Deployed Application (**required**): [Flixster Deployed Site](https://flixster-s
     - [x] Banner section
     - [x] Search bar
     - [x] Movie grid
-    - [ ] Footer section
+    - [x] Footer section
     - [ ] **VIDEO WALKTHROUGH SPECIAL INSTRUCTIONS**: To ease the grading process, please use the [color contrast checker](https://webaim.org/resources/contrastchecker/) to demonstrate to the grading team that text and background colors on your website have appropriate contrast. The Contrast Ratio should be above 4.5:1 and should have a green box surrounding it. 
-  - [ ] **Deployment**
-  - [ ] Website is deployed via Render.
-  - [ ] **VIDEO WALKTHROUGH SPECIAL INSTRUCTIONS**: For ease of grading, please use the deployed version of your website when creating your walkthrough. 
+  - [x] **Deployment**
+  - [x] Website is deployed via Render.
+  - [x] **VIDEO WALKTHROUGH SPECIAL INSTRUCTIONS**: For ease of grading, please use the deployed version of your website when creating your walkthrough. 
 
 #### STRETCH FEATURES
-
 
 - [x] **Embedded Movie Trailers**
   - [x] Within the pop-up modal displaying a movie's details, the movie trailer is viewable.
@@ -117,11 +116,12 @@ Deployed Application (**required**): [Flixster Deployed Site](https://flixster-s
 
 * Did the topics discussed in your labs prepare you to complete the assignment? Be specific, which features in your weekly assignment did you feel unprepared to complete?
 
-Add your response here
+Yes! The weather lab was really helpful when it came time to understand fetch and how it works with state and useEffect. I would have thought the search bar was hard, but there was an endpoint, so it was actually simple. Props passing too got confusing at time, but I thought it was a matter of practice and exposure.
+
 
 * If you had more time, what would you have done differently? Would you have added additional features? Changed the way your project responded to a particular event, etc.
   
-Add your response here
+Yeah I would have styled my project better. My project has just the functionalities and stretch features, but it doesn't do a great job with the styling. Specifically, I would have had a better looking sidebar that you can slide open and close again.
 
 * Reflect on your project demo, what went well? Were there things that maybe didn't go as planned? Did you notice something that your peer did that you would like to try next time?
 
@@ -133,4 +133,4 @@ Add your response here
 
 ### Shout out
 
-Give a shout out to somebody from your cohort that especially helped you during your project. This can be a fellow peer, instructor, TA, mentor, etc.
+I would like to give a shoutout to Terrance and Jesus. They helped me through the debugging process. They explain topics really well and are very supportive through the learning process.

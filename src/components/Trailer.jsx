@@ -1,8 +1,8 @@
-import React, { useContext } from 'react';
-import { MovieContext } from '../context/MovieContext';
+import React, {useContext} from "react";
+import {MovieContext} from "../context/MovieContext";
 
 function Trailer() {
-  const { movieVideos } = useContext(MovieContext);
+  const {movieVideos} = useContext(MovieContext);
 
   if (!movieVideos || movieVideos.length === 0) {
     return <p>No trailer available.</p>;

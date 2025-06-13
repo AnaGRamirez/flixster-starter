@@ -17,8 +17,8 @@
   padding: 1.5rem;
   width: 90%;
   max-width: 700px;
-  max-height: 80vh;     /* Limits vertical space */
-  overflow-y: auto;     /* Enables scroll *inside* the modal if needed */
+  max-height: 80vh;
+  overflow-y: auto;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
   position: relative;
 }
@@ -31,7 +31,6 @@
   background: none;
   cursor: pointer;
 }
-
 
 .movie-details {
   display: flex;

@@ -3,7 +3,7 @@
   justify-content: center;
   align-items: center;
   gap: 10px;
-  flex-wrap: wrap; 
+  flex-wrap: wrap;
 }
 
 .search-input {
@@ -14,7 +14,6 @@
   outline: none;
   font-size: 1em;
 }
-
 
 .search-button,
 .clear-button {
@@ -37,7 +36,6 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
 }
 
-
 .clear-button {
   background-color: #e74c3c;
   color: white;
@@ -48,4 +46,3 @@
   background-color: #c0392b;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
 }
-

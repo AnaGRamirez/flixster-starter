@@ -1,27 +1,27 @@
-.movie-grid{
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-    width: 100%;
+.movie-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  width: 100%;
 }
 .load-more-button {
-    width: 250px;
-    height: 60px;
-    font-size: 1.25rem;
-    background-color: white;
-    color: black;
-    border-radius: 8px;
-    border: 2px solid black;
-    cursor: pointer;
+  width: 250px;
+  height: 60px;
+  font-size: 1.25rem;
+  background-color: white;
+  color: black;
+  border-radius: 8px;
+  border: 2px solid black;
+  cursor: pointer;
 }
 
 .load-more-button:hover {
-    background-color: #f0f0f0;
-    transform: scale(1.05);
+  background-color: #f0f0f0;
+  transform: scale(1.05);
 }
 
 /* fix responsiveness of the title of the grid after implementing other sidebar */
-.movie-grid-parent{
-    padding-top:60px;
+.movie-grid-parent {
+  padding-top: 60px;
 }
 
 .movie-grid-parent h2 {
@@ -45,20 +45,19 @@
   margin-bottom: 10px;
 }
 
-
-@media(max-width: 1200px){
-    .movie-grid{
-        grid-template-columns: repeat(4, 1fr);
-    }
+@media (max-width: 1200px) {
+  .movie-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
 }
 
-@media(max-width: 800px){
-    .movie-grid{
-        grid-template-columns: repeat(2, 1fr);
-    }
+@media (max-width: 800px) {
+  .movie-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
-@media(max-width: 500px){
-    .movie-grid{
-        grid-template-columns: 1fr;
-    }
+@media (max-width: 500px) {
+  .movie-grid {
+    grid-template-columns: 1fr;
+  }
 }

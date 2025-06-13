@@ -1,9 +1,9 @@
-.navbar{
-  position: fixed;       
-  top: 0;                
-  left:auto;
-  width: 100%;           
-  z-index: auto;        
+.navbar {
+  position: fixed;
+  top: 0;
+  left: auto;
+  width: 100%;
+  z-index: auto;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -34,4 +34,3 @@
   flex-wrap: wrap;
   justify-content: center;
 }
-
