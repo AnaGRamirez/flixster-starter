@@ -108,9 +108,8 @@ Deployed Application (**required**): [Flixster Deployed Site](https://flixster-s
 
 ### Walkthrough Video
 
-`TODO://` Add the embedded URL code to your animated app walkthrough below, `ADD_EMBEDDED_CODE_HERE`. Make sure the video or gif actually renders and animates when viewing this README. Ensure your walkthrough showcases the presence and/or functionality of all features you implemented above (check them off as you film!). Pay attention to any **VIDEO WALKTHROUGH SPECIAL INSTRUCTIONS** checkboxes listed above to ensure graders see the full functionality of your website! (🚫 Remove this paragraph after adding walkthrough video)
-
-`ADD_EMBEDDED_CODE_HERE`
+`
+`https://www.loom.com/share/c6f476c5bd5b4f439fba184931fb715d?sid=ed0090e7-6754-4be1-8259-3a1ba184aee2`
 
 ### Reflection
 
@@ -125,11 +124,12 @@ Yeah I would have styled my project better. My project has just the functionalit
 
 * Reflect on your project demo, what went well? Were there things that maybe didn't go as planned? Did you notice something that your peer did that you would like to try next time?
 
-Add your response here
-
+I didn't do a demo this week. It was done last week.
 ### Open-source libraries used
 
-- Add any links to open-source libraries used in your project.
+- https://www.npmjs.com/package/react-dom
+- https://www.npmjs.com/package/react-router-dom
+
 
 ### Shout out
 
