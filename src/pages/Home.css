@@ -1,0 +1,24 @@
+.sidebar{
+    flex-shrink:0;
+    width: 220px;
+    position: fixed;
+    z-index: 998;
+    left: 0;
+    height: 100vh;
+    margin-top: 100px;
+    background: linear-gradient(135deg, #000000, #444444); 
+}
+
+.content-wrapper{
+    display: flex;
+    flex:1;
+    height: auto;
+    overflow-y: auto;
+    min-width: 0;
+}
+
+.main-content {
+    flex:1;
+    margin-left: 300px;
+    margin-top: 30px;   
+}

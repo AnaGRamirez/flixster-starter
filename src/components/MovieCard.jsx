@@ -2,7 +2,7 @@ import './MovieCard.css';
 import { useContext } from 'react';
 import {MovieContext} from '../context/MovieContext';
 // Go back and add a conditional of image not found if image is not available in the API
-// also trim the rating
+// also trim the
 function MovieCard({props}){
 
    const {toggleFavorite, toggleWatched, openModal} = useContext(MovieContext);

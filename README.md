@@ -11,7 +11,7 @@ Currently, two official plugins are available:
 
 Submitted by: **Ana Ramirez**
 
-Estimated time spent: **#** hours spent in total
+Estimated time spent: **20** hours spent in total
 
 Deployed Application (**required**): [Flixster Deployed Site](https://flixster-starter-u9cr.onrender.com/)
 
@@ -44,18 +44,18 @@ Deployed Application (**required**): [Flixster Deployed Site](https://flixster-s
     - [ ] [Color contrast](https://webaim.org/resources/contrastchecker/)
     - [ ] Alt text for images 
   - [ ] Website implements responsive web design.
-    - [ x] Uses CSS Flexbox or CSS Grid
+    - [x] Uses CSS Flexbox or CSS Grid
     - [x] Movie tiles and images shrink/grow in response to window size
-  - [ ] Users can click on a movie tile to view more details about a movie in a pop-up modal.
-    - [ ] The pop-up window is centered in the screen and does not occupy the entire screen.
-    - [ ] The pop-up window has a shadow to show that it is a pop-up and appears floating on the screen.
-    - [ ] The backdrop of the pop-up appears darker or in a different shade than before. including:
-    - [ ] The pop-up displays additional details about the moving including:
-      - [ ] Runtime in minutes
-      - [ ] Backdrop poster
-      - [ ] Release date
-      - [ ] Genres
-      - [ ] An overview
+  - [x] Users can click on a movie tile to view more details about a movie in a pop-up modal.
+    - [x] The pop-up window is centered in the screen and does not occupy the entire screen.
+    - [x] The pop-up window has a shadow to show that it is a pop-up and appears floating on the screen.
+    - [x] The backdrop of the pop-up appears darker or in a different shade than before. including:
+    - [x] The pop-up displays additional details about the moving including:
+      - [x] Runtime in minutes
+      - [x] Backdrop poster
+      - [x] Release date
+      - [] Genres
+      - [x] An overview
   - [x] Users can use a drop-down menu to sort movies.
     - [x] Drop-down allows movies to be sorted by:
       - [x] Title (alphabetic, A-Z)
@@ -76,36 +76,36 @@ Deployed Application (**required**): [Flixster Deployed Site](https://flixster-s
 #### STRETCH FEATURES
 
 
-- [ ] **Embedded Movie Trailers**
-  - [ ] Within the pop-up modal displaying a movie's details, the movie trailer is viewable.
-    - [ ] When the trailer is clicked, users can play the movie trailer.
-- [ ] **Favorite Button**
-  - [ ] For each movie displayed, users can favorite the movie.
-  - [] There should be visual element (such as a heart icon) on each movie's tile to show whether or not the movie has been favorited.
-  - [ ] If the movie is not favorited:
-    - [ ] Clicking on the visual element should mark the movie as favorited
-    - [ ] There should be visual feedback (such as the heart turning a different color) to show that the movie has been favorited by the user.
-  - [ ] If the movie is already favorited:
-    - [ ] Clicking on the visual element should mark the movie as *not* favorited.
-    - [ ] There should be visual feedback (such as the heart turning a different color) to show that the movie has been unfavorited. 
-- [ ] **Watched Checkbox**
-  - [ ] For each movie displayed, users can mark the movie as watched.
-  - [ ] There should be visual element (such as an eye icon) on each movie's tile to show whether or not the movie has been watched.
-  - [ ] If the movie has not been watched:
-    - [ ] Clicking on the visual element should mark the movie as watched
-    - [ ] There should be visual feedback (such as the eye turning a different color) to show that the movie has been watched by the user.
-  - [ ] If the movie is already watched:
-    - [ ] Clicking on the visual element should mark the movie as *not* watched.
-    - [ ] There should be visual feedback (such as the eye turning a different color) to show that the movie has not been watched.
-- [ ] **Sidebar**
-  - [ ] The website includes a side navigation bar.
-  - [ ] The sidebar has three pages:
-    - [ ] Home
-    - [ ] Favorites
-    - [ ] Watched
-  - [ ] The Home page displays all current movies in a grid view, the search bar, and the sort movies drop-down.
-  - [ ] The Favorites page displays all favorited movies in a grid view.
-  - [ ] The Watched page displays all watched movies in a grid view.
+- [x] **Embedded Movie Trailers**
+  - [x] Within the pop-up modal displaying a movie's details, the movie trailer is viewable.
+    - [x] When the trailer is clicked, users can play the movie trailer.
+- [x] **Favorite Button**
+  - [x] For each movie displayed, users can favorite the movie.
+  - [x] There should be visual element (such as a heart icon) on each movie's tile to show whether or not the movie has been favorited.
+  - [x] If the movie is not favorited:
+    - [x] Clicking on the visual element should mark the movie as favorited
+    - [x] There should be visual feedback (such as the heart turning a different color) to show that the movie has been favorited by the user.
+  - [x] If the movie is already favorited:
+    - [x] Clicking on the visual element should mark the movie as *not* favorited.
+    - [x] There should be visual feedback (such as the heart turning a different color) to show that the movie has been unfavorited. 
+- [x] **Watched Checkbox**
+  - [x] For each movie displayed, users can mark the movie as watched.
+  - [x] There should be visual element (such as an eye icon) on each movie's tile to show whether or not the movie has been watched.
+  - [x] If the movie has not been watched:
+    - [x] Clicking on the visual element should mark the movie as watched
+    - [x] There should be visual feedback (such as the eye turning a different color) to show that the movie has been watched by the user.
+  - [x] If the movie is already watched:
+    - [x] Clicking on the visual element should mark the movie as *not* watched.
+    - [x] There should be visual feedback (such as the eye turning a different color) to show that the movie has not been watched.
+- [x] **Sidebar**
+  - [x] The website includes a side navigation bar.
+  - [x] The sidebar has three pages:
+    - [x] Home
+    - [x] Favorites
+    - [x] Watched
+  - [x] The Home page displays all current movies in a grid view, the search bar, and the sort movies drop-down.
+  - [x] The Favorites page displays all favorited movies in a grid view.
+  - [x] The Watched page displays all watched movies in a grid view.
 
 ### Walkthrough Video
 

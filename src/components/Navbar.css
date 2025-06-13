@@ -1,15 +1,16 @@
 .navbar{
   position: fixed;       
   top: 0;                
-  left: 0;
+  left:auto;
   width: 100%;           
   z-index: auto;        
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding: 15px 30px;
+  padding: 15px;
   background: linear-gradient(135deg, #1c1c1c, #444444);
   flex-wrap: wrap;
+  z-index: 999;
 }
 .website-title {
   display: flex;
